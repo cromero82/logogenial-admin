@@ -30,7 +30,6 @@ export class GrupoNivelEditComponent implements OnInit {
   //   {"id": 2, "name": "option2"}
   // ]
   // selected2 :any;
-  //public grupo-nivelCtrl: FormControl = new FormControl();
 
   constructor(private dialogRef: MatDialogRef<GrupoNivelEditComponent>,
     private formBuilder: FormBuilder,
