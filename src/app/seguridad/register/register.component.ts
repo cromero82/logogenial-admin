@@ -39,7 +39,7 @@ export class RegisterComponent implements OnInit {
       email   : [this.userLogin.username, [Validators.required]],
       password: [this.userLogin.password, Validators.required],
       repetirPassword: [this.userLogin.repetirPassword, Validators.required],
-      rol: [null, Validators.required]
+      rol: [null, null]
   });
   }
 
